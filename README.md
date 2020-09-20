@@ -14,4 +14,5 @@ Shared Covolutional Neural Netwroks allow the AI to see 4 frames into the past a
 
 ## Results on Atari:
 After just a few thousand episodes, the algorithm has learned to play the game proficiently: 
+
 ![Lazy Programmer](https://github.com/TimDommett/Multithreaded-Reinforcement-Learning-A3C-/blob/master/readme_images/results.png)
