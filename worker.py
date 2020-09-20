@@ -189,8 +189,8 @@ class Worker:
       action = self.sample_action(self.state, sess)
       next_frame, reward, done, _ = self.env.step(action)
     #   after 100 episodes start to render worker
-    #   if len(self.returns_list) > 100:
-    #       self.env.render()
+      if len(self.returns_list) > 5000:
+          self.env.render()
 
       # Shift the state to include the latest frame
       next_state = shift_frames(self.state, self.img_transformer.transform(next_frame))
