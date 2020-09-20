@@ -4,7 +4,7 @@ Multithreaded Reinforcement Learning using A3C
 ## Multithreaded Architecture
 This is the structure of our AC3 algorigthm
 
-![Lazy Programmer](/readme_images/multithread)
+![Lazy Programmer](https://github.com/TimDommett/Multithreaded-Reinforcement-Learning-A3C-/blob/master/readme_images/multithread.png)
 
 Threaded workers copy weights from global network and run multiple episodes in paralel.
 
